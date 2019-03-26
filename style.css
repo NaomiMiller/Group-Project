@@ -1,12 +1,20 @@
-body 
+body {
 
-  color: rgb(255,182,193)
+  color: rgb(255,182,193);
 
   margin: 0;
 
-  font-family: Gabriola
+  font-family: Gabriola;
+  font-size: 22px;
+
+
+  background-image: url("https://i.imgur.com/79TmLHm.png");
+  background-size:contain;
+  background-position: center;
+
 
 }
+
 
 div {
 
