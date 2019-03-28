@@ -2,26 +2,59 @@
 <html>
 
   <head>
+
     <title>Organisation is key</title>
 
   <link href= "style.css" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Indie+Flower">
 
 
 </head>
 
 <body>
 
+  <div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+</div>
 
 
-  <h1> <strong>Organisation is Key</strong> </h1>
+    <h1><strong>Organisation is Key</strong></h1>
+  </div>
 
-
-
+<div class="container-fluid">
   <h2>Welcome</h2>
-
 <p> This is your personalised diary, to organise your life!</p>
-
 <p> Add events, set goals and see your progress through your own online diary! </p>
+</div>
+
+<form action="action_page.php">
+  <div class="imgcontainer">
+    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
 
 
 
@@ -29,8 +62,5 @@
 
 
 
-
-
-<h2></h2>
 
 </body>

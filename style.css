@@ -2,53 +2,75 @@ body {
 
   color: rgb(255,182,193);
 
-  margin: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;;
+  font-family: 'indie flower', cursive;
+  font-size: 20px;
 
-  font-family: Gabriola;
-  font-size: 22px;
 
 
   background-image: url("https://i.imgur.com/79TmLHm.png");
-  background-size:contain;
+  background-size:auto;
   background-position: center;
 
 
-}
+  }
+
+        .topnav {
+         background-color: #FFF0f5;
+         overflow: hidden;
+    }
+
+      .topnav a {
+      float: left;
+      color: #8D38C9;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      font-family: sans-serif;
+
+  }
+
+  .topnav a:hover {
+
+    background-color: #00FA9A;
+    color: black;
+
+     }
+
+     .topnav.a.active {
+       background-color: blue;
+       color: white
+     }
 
 
-div {
+     h1,h2 {
 
-  min-height: 100vh;
+  text-align: center;
+       }
 
-  width: 100vw;
+    h1   {
 
-}
+  color:rgb(255,182,193)
 
-h1,h2 {
+    }
 
+   h2 {
+
+  colour:rgb(255,182,193)
+  font-size: 2em
+    }
+
+p {
+  font-size: 1em;
   text-align: center;
 
 }
 
-
-
-h1
-
-{
-
-  color:rgb(255,182,193)
-
-
-
 }
-
-h2 {
-
-  colour:rgb(255,182,193)
-
-  font-size: 2em
-
-
 
 }
 
