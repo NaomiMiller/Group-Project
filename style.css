@@ -4,52 +4,50 @@
 
 
 
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-  border: 1px;
-}
+    [class*="col-"] {
+      float: left;
+      padding: 15px;
+      border: 1px;
+      }
 
-.header {
-  border: 1px;
-  padding: 15px;
-  height: 100px;
-  width: 500px;
-  margin: auto;
-}
+    .header {
+     border: 1px;
+     padding: 15px;
+     height: 100px;
+     width: 500px;
+     margin: auto;
+      }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+      .col-1 {width: 8.33%;}
+      .col-2 {width: 16.66%;}
+      .col-3 {width: 25%;}
+      .col-4 {width: 33.33%;}
+      .col-5 {width: 41.66%;}
+      .col-6 {width: 50%;}
+      .col-7 {width: 58.33%;}
+      .col-8 {width: 66.66%;}
+      .col-9 {width: 75%;}
+      .col-10 {width: 83.33%;}
+      .col-11 {width: 91.66%;}
+      .col-12 {width: 100%;}
 
 body {
 
 
 
-  color: rgb(255,182,193);
-
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;;
-  font-family: 'indie flower', cursive;
-  font-size: 20px;
-
+    color: rgb(255,182,193);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;;
+    font-family: 'indie flower', cursive;
+    font-size: 20px;
 
 
-  background-image: url("https://i.imgur.com/79TmLHm.png");
-  background-size:auto;
-  background-position: center;
 
+    background-image: url("https://i.imgur.com/79TmLHm.png");
+    background-size:auto;
+    background-position: center;
 
   }
 
@@ -60,166 +58,186 @@ body {
          border-radius: 20px;
          margin: auto;
 
+         }
 
-    }
+        .topnav a {
+         float: left;
+         color: rgb(255,182,193);
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+         font-size: 17px;
+         font-family: 'indie flower' cursive;
 
-      .topnav a {
-      float: left;
-      color: rgb(255,182,193);
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-      font-family: 'indie flower' cursive;
+        }
 
-  }
+        .topnav a:hover {
+         background-color: blue;
+         color: white;
 
-  .topnav a:hover {
+        }
 
-    background-color: blue;
-    color: white;
+       .topnav.a.active {
+        background-color: blue;
+        color: white
 
-     }
-
-     .topnav.a.active {
-       background-color: blue;
-       color: white
-     }
-
-     .topnav input[type=text] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a, .topnav input[type=text] {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 14px;
-  }
-  .topnav input[type=text] {
-    border: 1px solid #ccc;
-  }
-}
-
-     h1,h2 {
-  text-align: center;
        }
 
-    h1   {
-  color:rgb(255,182,193);
-  font-size:2.5em;
+     .topnav input[type=text] {
+       float: right;
+       padding: 6px;
+       border: none;
+       margin-top: 8px;
+       margin-right: 16px;
+       font-size: 17px;
+      }
 
-    }
+      @media screen and (max-width: 600px) {
+      .topnav a, .topnav input[type=text] {
+       float: none;
+       display: block;
+       text-align: left;
+       width: 100%;
+       margin: 0;
+       padding: 14px;
 
-   h2 {
-  colour:rgb(255,182,193)
-  font-size: 2em;
-    }
+      }
 
-  p {
-  font-size: 1em;
-  text-align: center;
-  }
+     .topnav input[type=text] {
+      border: 1px solid #ccc;
+     }
+     }
 
-   img{
-  display: flex;
-     margin: 0 auto;
-     padding: 20px;
-     border-radius:130px;
-  }
+       h1,h2 {
+        text-align: center;
 
-  @media screen and (max-width: 600px) {
-    h1, h2, p, img input, b[type=text] {
-      float: none;
-      display: block;
-      text-align: left;
-      width: 100%;
-      margin: 0;
-      padding: 14px;
-    }
-    }
+       }
 
-    form {
-       border: 3px;
-    }
+       h1   {
+        color:#DB7093;
+        font-size:2.5em;
 
-b {
-  float: none;
-  display: block;
-  text-align: center;
-  width: 100%;
-  margin: 0;
-  padding: 14px;
-}
+       }
 
+       h2 {
+        color:#DB7093;
+        font-size: 2em;
 
+       }
 
-button{
-  color: White;
-  background-color: green;
-}
+       p {
+        font-size: 1em;
+        text-align: center;
+        color:#DB7093;
 
+       }
 
-    input[type=text], input[type=password] {
-      width: 200px;
-      height:20px;
-      padding: 12px, 20px;
-      margin:8px auto;
-      display:inline-block;
-      border: 1px solid black;
-      box-sizing: border-box;
-      margin-bottom: 20px;
-      border-radius: 20px;
-    }
+       img{
+        display: flex;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius:130px;
 
-    @media screen and (max-width: 600px) {
-    input[type=text] , input [type=password] {
+       }
+
+       @media screen and (max-width: 600px) {
+       h1, h2, p, img input, b[type=text] {
         float: none;
         display: block;
         text-align: left;
         width: 100%;
         margin: 0;
         padding: 14px;
+
       }
-    }
+      }
 
-    input[type="checkbox"]:after {
-   display: block;
-    content: '';
-    width: 100%;
-    height: 1px;
-    position: absolute;
-    bottom: 0;
-    align: right;
-  }
-    }
+       form {
+        border: 3px;
+
+       }
+
+       b {
+        float: none;
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+        color: #DB7093
+
+       }
 
 
-    button {
-       background-color: #4CAF50;
-       color: white;
-       padding: 12px 20px;
-       margin: 8px 0;
-       border: none;
-       cursor: pointer;
-       width: 100px;
-       height:auto;
-       align: auto;
+
+       button{
+        color: White;
+        background-color: blue;
+        margin-bottom: 20px;
+        border-radius: 20px;
+
+      }
+
+      label{
+       color: #DB7093;
+
+      }
+
+      input[type=text], input[type=password] {
+       width: 200px;
+       height:20px;
+       padding: 12px, 20px;
+       margin:8px auto;
+       display:inline-block;
+       border: 1px solid black;
+       box-sizing: border-box;
        margin-bottom: 20px;
        border-radius: 20px;
-    }
 
-    button:hover {
-       opacity: 0.8;
-     }
+      }
+
+      @media screen and (max-width: 600px) {
+      input[type=text] , input [type=password] {
+       float: none;
+       display: block;
+       text-align: left;
+       width: 100%;
+       margin: 0;
+       padding: 14px;
+
+      }
+      }
+
+      input[type="checkbox"]:after {
+       display: block;
+       content: '';
+       width: 100%;
+       height: 1px;
+       position: absolute;
+       bottom: 0;
+       align: right;
+      }
+      }
+
+
+       button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100px;
+        height:auto;
+        align: auto;
+        margin-bottom: 20px;
+        border-radius: 20px;
+
+       }
+
+       button:hover {
+        opacity: 0.8;
+      }
 
 
 
@@ -248,47 +266,46 @@ button{
              span.psw, {
                   display: block;
                   float: none;
+                  color: rgb(249,110,207);
+                  margin-top: 100px;
+                  margin-bottom: 100px;
+                  margin-right: 150px;
+                  margin-left: 80px;
+                  font-family: 'indie flower', cursive;
+                  font-size: 20px;
+
+                  background-image: url("https://i.imgur.com/79TmLHm.png");
+                  background-size:auto;
+                  background-position: center;
+
+          }
 
 
-        color: rgb(249,110,207);
-        margin-top: 100px;
-        margin-bottom: 100px;
-        margin-right: 150px;
-        margin-left: 80px;
-        font-family: 'indie flower', cursive;
-        font-size: 20px;
 
-
-
-        background-image: url("https://i.imgur.com/79TmLHm.png");
-        background-size:auto;
-        background-position: center;
-
-        }
        .Title1 {
-        padding-top: 50px;
-       }
-
+         padding-top: 50px;
 
        }
-              .topnav {
+       }
+
+          .topnav {
                background-color: #FFF0f5;
                overflow: hidden;
+
           }
 
             .topnav a {
-            float: left;
-            color: #8D38C9;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-            font-family: 'indie flower' cursive;;
+             float: left;
+             color: #8D38C9;
+             text-align: center;
+             padding: 14px 16px;
+             text-decoration: none;
+             font-size: 17px;
+             font-family: 'indie flower' cursive;
 
         }
 
         .topnav a:hover {
-
           background-color: #00FA9A;
           color: black;
 
@@ -307,26 +324,29 @@ button{
              transform: translate(-50%, -50%);
              width: 900px;
              background-color: rgba(255, 255, 255, 0.8);
-             color: rgb(249,110,207);
+             color: #DB7093;
              padding-top: 10px;
              padding-left: 50px;
              padding-right: 50px;
              padding-bottom: 10px;
              margin: 50px;
              border-radius: 50px;
+
            }
 
            .icon-bar {
              border-radius: 50px;
-            background-color: rgba(255, 255, 255, 0.8);
-            width:200px;
-            padding-top: 10px;
-            padding-left: 25px;
-            padding-right: 25px;
-            padding-bottom: 10px;
+             background-color: rgba(255, 255, 255, 0.8);
+             color: #DB7093;
+             width:200px;
+             padding-top: 10px;
+             padding-left: 25px;
+             padding-right: 25px;
+             padding-bottom: 10px;
 
            }
-        .facebook {
+
+         .facebook {
               color:rgb(249,110,207);
               padding-right: 20px;
            }
@@ -334,21 +354,23 @@ button{
                 color: blue;
               }
 
-       .twitter {
-        color:rgb(249,110,207);
-        padding-right: 20px;
-       }
-       .twitter:hover {
-           color: blue;
-         }
-       .linkedin {
-        color:rgb(249,110,207);
-        padding-right: 20px;
+          .twitter {
+           color:rgb(249,110,207);
+           padding-right: 20px;
+           }
 
-       }
+         .twitter:hover {
+           color: blue;
+           }
+
+         .linkedin {
+           color:rgb(249,110,207);
+           padding-right: 20px;
+            }
+
        .linkedin:hover {
            color: blue;
-       }
+          }
 
       .google:hover {
         color: blue
@@ -367,3 +389,4 @@ button{
         color:rgb(249,110,207);
         padding-right: 20px
       }
+    }
